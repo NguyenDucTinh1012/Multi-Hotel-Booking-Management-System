@@ -1,7 +1,147 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\service\\emailverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\service\\emailverificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\bll\\accountbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\bll\\accountbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\dto\\verifyemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\dto\\verifyemaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\service\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\service\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\This PC\\AppData\\Roaming\\Microsoft\\UserSecrets\\6770fbdb-367c-4e9c-bc63-20d91680407a\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\service\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Migrations\\20261126083949_AddVerificationOtpAttempts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Migrations\\20261126083949_AddVerificationOtpAttempts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\model\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\model\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\controllers\\emailtestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\emailtestcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\service\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\service\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\service\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\service\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\controllers\\passwordresettokenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\passwordresettokenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\dto\\passwordresettokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\dto\\passwordresettokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\bll\\rolebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\bll\\rolebll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\dal\\passwordresettokendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\dal\\passwordresettokendal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\dto\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\dto\\accountdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\bll\\passwordresettokenbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\bll\\passwordresettokenbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\bll\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\bll\\userbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\dal\\accountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\dal\\accountdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\dal\\roledal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\dal\\roledal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\dal\\userdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\model\\passwordresettoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\model\\passwordresettoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|f:\\multi-hotel booking \u0026 management system\\backend\\backend\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF31ED50-B34E-48A6-B038-75839EABA16F}|Backend\\Backend.csproj|solutionrelative:backend\\dto\\roledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +149,452 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VerifyEmailDTO.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DTO\\VerifyEmailDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTO\\VerifyEmailDTO.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DTO\\VerifyEmailDTO.cs",
+              "RelativeToolTip": "Backend\\DTO\\VerifyEmailDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T08:49:24.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailVerificationService.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Service\\EmailVerificationService.cs",
+              "RelativeDocumentMoniker": "Backend\\Service\\EmailVerificationService.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Service\\EmailVerificationService.cs",
+              "RelativeToolTip": "Backend\\Service\\EmailVerificationService.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAuwJwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T08:48:09.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Program.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Program.cs",
+              "RelativeToolTip": "Backend\\Program.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAADgv3sAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:21:11.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountBLL.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\BLL\\AccountBLL.cs",
+              "RelativeDocumentMoniker": "Backend\\BLL\\AccountBLL.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\BLL\\AccountBLL.cs",
+              "RelativeToolTip": "Backend\\BLL\\AccountBLL.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwFgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:46:53.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\AccountsController.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAwIMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:52:43.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OtpService.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Service\\OtpService.cs",
+              "RelativeDocumentMoniker": "Backend\\Service\\OtpService.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Service\\OtpService.cs",
+              "RelativeToolTip": "Backend\\Service\\OtpService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T08:46:19.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Service\\JwtService.cs",
+              "RelativeDocumentMoniker": "Backend\\Service\\JwtService.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Service\\JwtService.cs",
+              "RelativeToolTip": "Backend\\Service\\JwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T08:31:22.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20261126083949_AddVerificationOtpAttempts.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Migrations\\20261126083949_AddVerificationOtpAttempts.cs",
+              "RelativeDocumentMoniker": "Backend\\Migrations\\20261126083949_AddVerificationOtpAttempts.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Migrations\\20261126083949_AddVerificationOtpAttempts.cs",
+              "RelativeToolTip": "Backend\\Migrations\\20261126083949_AddVerificationOtpAttempts.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T08:39:49.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Settings\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "Backend\\Settings\\JwtSettings.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Settings\\JwtSettings.cs",
+              "RelativeToolTip": "Backend\\Settings\\JwtSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T08:29:55.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\appsettings.json",
+              "RelativeDocumentMoniker": "Backend\\appsettings.json",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\appsettings.json",
+              "RelativeToolTip": "Backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-26T06:24:09.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\This PC\\AppData\\Roaming\\Microsoft\\UserSecrets\\6770fbdb-367c-4e9c-bc63-20d91680407a\\secrets.json",
+              "ToolTip": "C:\\Users\\This PC\\AppData\\Roaming\\Microsoft\\UserSecrets\\6770fbdb-367c-4e9c-bc63-20d91680407a\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-11-26T08:09:51.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Account.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\MODEL\\Account.cs",
+              "RelativeDocumentMoniker": "Backend\\MODEL\\Account.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\MODEL\\Account.cs",
+              "RelativeToolTip": "Backend\\MODEL\\Account.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswBkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:36:57.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "connect.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\connect.cs",
+              "RelativeDocumentMoniker": "Backend\\connect.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\connect.cs",
+              "RelativeToolTip": "Backend\\connect.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:21:39.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Service\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Backend\\Service\\EmailSettings.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Service\\EmailSettings.cs",
+              "RelativeToolTip": "Backend\\Service\\EmailSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T08:12:19.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Service\\IEmailService.cs",
+              "RelativeDocumentMoniker": "Backend\\Service\\IEmailService.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Service\\IEmailService.cs",
+              "RelativeToolTip": "Backend\\Service\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T08:12:51.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "Backend\\Service\\EmailService.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Service\\EmailService.cs",
+              "RelativeToolTip": "Backend\\Service\\EmailService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwEAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T08:13:35.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailTestController.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Controllers\\EmailTestController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\EmailTestController.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Controllers\\EmailTestController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\EmailTestController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAADwvzsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T08:15:43.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Backend",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Backend.csproj",
+              "RelativeDocumentMoniker": "Backend\\Backend.csproj",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Backend.csproj",
+              "RelativeToolTip": "Backend\\Backend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-11-26T08:09:34.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoleBLL.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\BLL\\RoleBLL.cs",
+              "RelativeDocumentMoniker": "Backend\\BLL\\RoleBLL.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\BLL\\RoleBLL.cs",
+              "RelativeToolTip": "Backend\\BLL\\RoleBLL.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwFcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:48:00.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PasswordResetTokensController.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Controllers\\PasswordResetTokensController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\PasswordResetTokensController.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Controllers\\PasswordResetTokensController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\PasswordResetTokensController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:53:28.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "passwordResetTokenDTO.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DTO\\passwordResetTokenDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTO\\passwordResetTokenDTO.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DTO\\passwordResetTokenDTO.cs",
+              "RelativeToolTip": "Backend\\DTO\\passwordResetTokenDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:34:59.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PasswordResetTokenDAL.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DAL\\PasswordResetTokenDAL.cs",
+              "RelativeDocumentMoniker": "Backend\\DAL\\PasswordResetTokenDAL.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DAL\\PasswordResetTokenDAL.cs",
+              "RelativeToolTip": "Backend\\DAL\\PasswordResetTokenDAL.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:43:40.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "accountDTO.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DTO\\accountDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTO\\accountDTO.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DTO\\accountDTO.cs",
+              "RelativeToolTip": "Backend\\DTO\\accountDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:34:19.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PasswordResetTokenBLL.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\BLL\\PasswordResetTokenBLL.cs",
+              "RelativeDocumentMoniker": "Backend\\BLL\\PasswordResetTokenBLL.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\BLL\\PasswordResetTokenBLL.cs",
+              "RelativeToolTip": "Backend\\BLL\\PasswordResetTokenBLL.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:47:26.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\RolesController.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\RolesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:58:28.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Backend\\Controllers\\UsersController.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Backend\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:59:31.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserBLL.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\BLL\\UserBLL.cs",
+              "RelativeDocumentMoniker": "Backend\\BLL\\UserBLL.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\BLL\\UserBLL.cs",
+              "RelativeToolTip": "Backend\\BLL\\UserBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:48:30.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AccountDAL.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DAL\\AccountDAL.cs",
+              "RelativeDocumentMoniker": "Backend\\DAL\\AccountDAL.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DAL\\AccountDAL.cs",
+              "RelativeToolTip": "Backend\\DAL\\AccountDAL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:45:44.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RoleDAL.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DAL\\RoleDAL.cs",
+              "RelativeDocumentMoniker": "Backend\\DAL\\RoleDAL.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DAL\\RoleDAL.cs",
+              "RelativeToolTip": "Backend\\DAL\\RoleDAL.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:44:38.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "UserDAL.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DAL\\UserDAL.cs",
+              "RelativeDocumentMoniker": "Backend\\DAL\\UserDAL.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DAL\\UserDAL.cs",
+              "RelativeToolTip": "Backend\\DAL\\UserDAL.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:39:09.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Role.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\MODEL\\Role.cs",
+              "RelativeDocumentMoniker": "Backend\\MODEL\\Role.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\MODEL\\Role.cs",
+              "RelativeToolTip": "Backend\\MODEL\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:38:11.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PasswordResetToken.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\MODEL\\PasswordResetToken.cs",
+              "RelativeDocumentMoniker": "Backend\\MODEL\\PasswordResetToken.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\MODEL\\PasswordResetToken.cs",
+              "RelativeToolTip": "Backend\\MODEL\\PasswordResetToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:37:36.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\MODEL\\User.cs",
+              "RelativeDocumentMoniker": "Backend\\MODEL\\User.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\MODEL\\User.cs",
+              "RelativeToolTip": "Backend\\MODEL\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:36:10.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "userDTO.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DTO\\userDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTO\\userDTO.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DTO\\userDTO.cs",
+              "RelativeToolTip": "Backend\\DTO\\userDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:32:40.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "roleDTO.cs",
+              "DocumentMoniker": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DTO\\roleDTO.cs",
+              "RelativeDocumentMoniker": "Backend\\DTO\\roleDTO.cs",
+              "ToolTip": "F:\\Multi-Hotel Booking \u0026 Management System\\Backend\\Backend\\DTO\\roleDTO.cs",
+              "RelativeToolTip": "Backend\\DTO\\roleDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-26T06:33:28.223Z"
             }
           ]
         },

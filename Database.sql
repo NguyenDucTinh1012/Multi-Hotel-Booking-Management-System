@@ -134,3 +134,6 @@ SELECT * FROM Users;
 
 SELECT * FROM PasswordResetTokens;
 GO
+CREATE UNIQUE INDEX UX_PasswordResetTokens_TokenHash
+ON PasswordResetTokens(TokenHash);
+GO

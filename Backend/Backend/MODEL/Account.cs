@@ -23,5 +23,6 @@ namespace Backend.MODEL
         public User? User { get; set; }
         public ICollection<PasswordResetToken> PasswordResetTokens { get; set; }
             = new List<PasswordResetToken>();
+        public int VerificationOtpAttempts { get; set; } = 0;
     }
 }

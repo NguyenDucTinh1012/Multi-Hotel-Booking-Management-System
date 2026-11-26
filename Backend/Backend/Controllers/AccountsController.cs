@@ -1,5 +1,6 @@
 ﻿using Backend.BLL;
 using Backend.DTO;
+using Backend.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,11 +12,16 @@ namespace Backend.Controllers
     {
         private readonly AccountBLL _accountBLL;
         private readonly RoleBLL _roleBLL;
+        private readonly EmailVerificationService _emailVerificationService;
 
-        public AccountsController(AccountBLL accountBLL, RoleBLL roleBLL)
+        public AccountsController(
+      AccountBLL accountBLL,
+      RoleBLL roleBLL,
+      EmailVerificationService emailVerificationService)
         {
             _accountBLL = accountBLL;
             _roleBLL = roleBLL;
+            _emailVerificationService = emailVerificationService;
         }
 
         // GET: api/accounts
@@ -73,4 +79,56 @@ namespace Backend.Controllers
                 ? NoContent()
                 : NotFound(new { message = "Không tìm thấy tài khoản." });
         }
+
+        [HttpPost("verify-email")]
+        public async Task<IActionResult> VerifyEmail(
+    [FromBody] VerifyEmailDTO dto)
+        {
+            if (string.IsNullOrWhiteSpace(dto.Email) ||
+                string.IsNullOrWhiteSpace(dto.Otp))
+            {
+                return BadRequest(new
+                {
+                    message = "Email và OTP không được để trống."
+                });
+            }
+
+            bool result = await _emailVerificationService.VerifyOtpAsync(
+                dto.Email,
+                dto.Otp
+            );
+
+            if (!result)
+            {
+                return BadRequest(new
+                {
+                    message = "OTP không hợp lệ, đã hết hạn hoặc vượt quá số lần thử."
+                });
+            }
+
+            return Ok(new
+            {
+                message = "Xác minh email thành công."
+            });
+        }
+        [HttpPost("resend-otp")]
+        public async Task<IActionResult> ResendOtp(
+     [FromBody] ResendOtpDTO dto)
+        {
+            if (string.IsNullOrWhiteSpace(dto.Email))
+            {
+                return BadRequest(new
+                {
+                    message = "Email không được để trống."
+                });
+            }
+
+            await _emailVerificationService.ResendOtpAsync(dto.Email);
+
+            return Ok(new
+            {
+                message = "Nếu tài khoản đủ điều kiện, OTP sẽ được gửi."
+            });
+        }
     }
+}

@@ -20,5 +20,9 @@
         public string Token { get; set; } = string.Empty;
         public string NewPassword { get; set; } = string.Empty;
     }
-
+    // DTO kiểm tra token đặt lại mật khẩu
+    public class ValidateResetTokenDTO
+    {
+        public string Token { get; set; } = string.Empty;
+    }
 }

@@ -41,6 +41,8 @@ namespace Backend
                     .WithMany(x => x.Accounts)
                     .HasForeignKey(x => x.RoleId)
                     .OnDelete(DeleteBehavior.Restrict);
+                entity.Property(x => x.VerificationOtpAttempts)
+    .HasDefaultValue(0);
             });
 
             modelBuilder.Entity<User>(entity =>
@@ -80,6 +82,6 @@ namespace Backend
                     .OnDelete(DeleteBehavior.Cascade);
             });
         }
-        }
+        
     }
 }

@@ -27,37 +27,65 @@ namespace Backend.BLL
 
         public async Task<RoleResponseDTO> CreateAsync(CreateRoleDTO dto)
         {
+            if (dto == null || string.IsNullOrWhiteSpace(dto.RoleName))
+                throw new ArgumentException(
+                    "Tên vai trò không được để trống.");
+
             var name = dto.RoleName.Trim();
-            if (string.IsNullOrWhiteSpace(name))
-                throw new ArgumentException("Tên vai trò không được để trống.");
+
+            if (name.Length > 50)
+                throw new ArgumentException(
+                    "Tên vai trò không được vượt quá 50 ký tự.");
 
             if (await _roleDAL.ExistsByNameAsync(name))
-                throw new InvalidOperationException("Tên vai trò đã tồn tại.");
+                throw new InvalidOperationException(
+                    "Tên vai trò đã tồn tại.");
 
-            var role = new Role { RoleName = name, Description = dto.Description?.Trim() };
+            var role = new Role
+            {
+                RoleName = name,
+                Description = dto.Description?.Trim()
+            };
+
             await _roleDAL.AddAsync(role);
+
             return ToDTO(role);
         }
 
         public async Task<bool> UpdateAsync(int id, UpdateRoleDTO dto)
         {
+            if (dto == null || string.IsNullOrWhiteSpace(dto.RoleName))
+                throw new ArgumentException(
+                    "Tên vai trò không được để trống.");
+
             var role = await _roleDAL.GetByIdAsync(id);
-            if (role is null) return false;
+
+            if (role is null)
+                return false;
 
             var name = dto.RoleName.Trim();
-            if (string.IsNullOrWhiteSpace(name))
-                throw new ArgumentException("Tên vai trò không được để trống.");
 
-            if (!string.Equals(role.RoleName, name, StringComparison.OrdinalIgnoreCase)
+            if (name.Length > 50)
+                throw new ArgumentException(
+                    "Tên vai trò không được vượt quá 50 ký tự.");
+
+            if (!string.Equals(
+                role.RoleName,
+                name,
+                StringComparison.OrdinalIgnoreCase)
                 && await _roleDAL.ExistsByNameAsync(name))
-                throw new InvalidOperationException("Tên vai trò đã tồn tại.");
+            {
+                throw new InvalidOperationException(
+                    "Tên vai trò đã tồn tại.");
+            }
 
             role.RoleName = name;
             role.Description = dto.Description?.Trim();
+
             await _roleDAL.UpdateAsync(role);
+
             return true;
         }
-
         public Task<bool> DeleteAsync(int id) => _roleDAL.DeleteAsync(id);
 
         private static RoleResponseDTO ToDTO(Role role) => new()
